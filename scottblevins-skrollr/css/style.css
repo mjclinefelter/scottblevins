@@ -11,6 +11,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#header {
+  height: 2000px;
+  background-color: #F9BA32;
+}
+
 .container {
   padding: 0;
   margin: 0;
@@ -18,12 +23,19 @@ body {
 }
 
 #tagline {
-  font-size: 1.5em;
-  margin-top: 100px;
-}
+  font-size:22px;
+    padding-left:2%;
+    height:50px;
+    	white-space: nowrap;
+    	overflow: hidden;
+      position: fixed;
+      top: 200px;
+      left: 300px;
+    }
 #tagline span {
   font-size: 2em;
   color: #F8F1E5;
+
 }
 #logo {
   position: fixed;
@@ -49,17 +61,14 @@ body {
 }
 
 #lightbulb img {
-  position: relative;
-  left: 135px;
-  top: -70px;
+  position: fixed;
+  left: 45px;
+  top: 300px;
+
 }
 
 .orange-background {
   background-color:  #F9BA32;
-}
-
-.blue-background {
-  background-color: #426E86;
 }
 
 .white-background {
@@ -80,30 +89,44 @@ body {
 
 #services {
   color: #F8F1E5;
+  height: 6000px;
+  background-color: #426E86;
+  padding-top: 300px;
 }
 
 #services .section-title h2 {
   color: #F9BA32;
-  margin-left: 45px;
-  margin-top: -50px;
+  position: fixed;
 }
 
 #gears img{
-  margin-left: -230px;
+  margin-left: -100px;
+}
+#orange-gear {
+  margin-left:-120px!important;
 }
 
-.list ul{
+
+
+.list img{
+  margin-left: 5px;
+  float: right;
+}
+
+.list p {
   list-style-type: none;
   font-size: 20px;
   color: #F8F1E5;
   font-weight: lighter;
+  display: inline;
+
 }
 
-.list-left ul {
+.list-left {
   text-align: right;
 }
 
-.list-right ul {
+.list-right p {
   text-align: left;
   margin-left: -125px;
   padding-top: 100px;
@@ -135,16 +158,16 @@ body {
 }
 
 #responsive-lightbulbs {
-  position: relative;
-  top: 45px;
+  position: fixed;
+  top: 300px;
+  left: 450px;
 }
 
 #responsive-lightbulbs h2 {
-  font-size: 3em;
+  font-size: 5em;
   position: relative;
-  margin-top: -205px;
-  margin-left: 100px;
-  color: #F9BA32;
+  margin-left: 60px;
+  color: #426E86;
   text-shadow: 2px 2px #2F3131;
 }
 
@@ -155,6 +178,9 @@ body {
 #ideas h2 {
   font-size: 3.5em;
   color: #426E86;
+  position: fixed;
+  top: 300px;
+  left: 205px;
 }
 
 .transition img{
@@ -249,3 +275,12 @@ margin-top: 25px;}
 .btn-primary {
   background-color: #F9BA32;
 }
+
+
+
+/*--- skrollr*/
+
+.box {
+    position: absolute;
+    left: 0;
+    height: 100%;

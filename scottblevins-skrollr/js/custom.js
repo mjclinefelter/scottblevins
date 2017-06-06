@@ -24,3 +24,7 @@ $(document).ready(function() {
 });
 
 var s = skrollr.init();
+
+$(window).on('load', function(){
+     console.log($(window).scrollTop());
+});
