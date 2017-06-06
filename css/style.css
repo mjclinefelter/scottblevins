@@ -1,0 +1,251 @@
+/*
+
+orange: #F9BA32;
+blue: #426E86;
+off-white: #F8F1E5;
+black: #2F3131;
+
+*/
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+#tagline {
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+#tagline span {
+  font-size: 2em;
+  color: #F8F1E5;
+}
+#logo {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+
+
+#logo h1 {
+  font-size: 70px;
+}
+#contact-form {
+  background-image: url("../images/contact-letter.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 675px;
+  text-align: center;
+}
+
+#logo h1 span {
+  font-size: .5em;
+}
+
+#lightbulb img {
+  position: relative;
+  left: 135px;
+  top: -70px;
+}
+
+.orange-background {
+  background-color:  #F9BA32;
+}
+
+.blue-background {
+  background-color: #426E86;
+}
+
+.white-background {
+  background-color: #F8F1E5;
+  color: #426E86;
+}
+
+.black-background {
+  background-color: #2F3131;
+  color: #F8F1E5;
+
+}
+
+.section-title h2{
+  font-size: 5em;
+
+}
+
+#services {
+  color: #F8F1E5;
+}
+
+#services .section-title h2 {
+  color: #F9BA32;
+  margin-left: 45px;
+  margin-top: -50px;
+}
+
+#gears img{
+  margin-left: -230px;
+}
+
+.list ul{
+  list-style-type: none;
+  font-size: 20px;
+  color: #F8F1E5;
+  font-weight: lighter;
+}
+
+.list-left ul {
+  text-align: right;
+}
+
+.list-right ul {
+  text-align: left;
+  margin-left: -125px;
+  padding-top: 100px;
+}
+
+.service-title {
+  font-size: 30px;;
+
+}
+#services .list-left {
+  margin-top: 100px;
+}
+
+#chart {
+  position: absolute;
+}
+#web-design {
+  position: relative;
+  margin-top: -100px;
+}
+
+#tech-consulting-img {
+  position: absolute;
+}
+
+#server {
+  position: relative;
+  margin-top: 150px;
+}
+
+#responsive-lightbulbs {
+  position: relative;
+  top: 45px;
+}
+
+#responsive-lightbulbs h2 {
+  font-size: 3em;
+  position: relative;
+  margin-top: -205px;
+  margin-left: 100px;
+  color: #F9BA32;
+  text-shadow: 2px 2px #2F3131;
+}
+
+#orange-transition {
+  background:  #F9BA32;
+}
+
+#ideas h2 {
+  font-size: 3.5em;
+  color: #426E86;
+}
+
+.transition img{
+  width: 100vw;
+  margin: 0;
+}
+
+
+
+#portfolio .section-title h2 {
+  margin-top: -100px;
+}
+#portfolio-images {
+  text-align: center;
+}
+
+.lowered {
+  padding-top: 200px;
+}
+
+#ipad {
+  -ms-transform: rotate(-14deg); /* IE 9 */
+    -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */
+    transform: rotate(-14deg);
+    text-shadow: 2px 2px #2F3131;
+}
+.filter-title {
+  background-color: #F8F1E5;
+  border: none;
+  color: #426E86;
+  font-size: 25px;
+}
+
+#portfolio-section {
+  position: relative;
+  top: -100px;
+  text-align: center;
+}
+.filter-button
+{
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    color: #426E86;
+    margin-bottom: 30px;
+    background-color: #F8F1E5;
+    padding: 0;
+
+
+}
+.filter-button:hover
+{
+    color: #F9BA32;
+    background-color: #F8F1E5;
+
+}
+.active-tab {
+    background-image: url("../images/circle.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+#gallery-list {
+  margin-top: 25px;
+}
+#contact-form {
+  padding-top: 50px;
+}
+#form-input {
+  padding: 5px 80px 0px 60px;
+}
+
+#message {
+  height: 145px;
+}
+#contact-info {
+  margin-bottom: 25px;
+}
+#contact-info p{
+margin-top: 25px;}
+
+.btn-primary {
+  background-color: #F9BA32;
+}
